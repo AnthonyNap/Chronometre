@@ -1,4 +1,3 @@
-// Function Chronomètre
 window.onload = function () {
   let seconds = 0;
   let tens = 0;
