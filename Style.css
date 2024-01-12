@@ -1,7 +1,6 @@
 /* Importation de la police de caractères 'Roboto' de Google Fonts avec un poids de 100 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-/* Définition des styles de base pour le corps de la page */
 body {
   background-color: orange; /* Couleur de fond de la page */
   font-family: sans-serif; /* Police par défaut de la page */

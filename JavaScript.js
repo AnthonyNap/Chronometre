@@ -1,4 +1,4 @@
-// Cette fonction est appelée une fois que la page web est entièrement chargée.
+
 window.onload = function () {
   // Initialisation des variables pour compter les dixièmes de secondes et les secondes.
   let seconds = 0;
