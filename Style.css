@@ -1,60 +1,64 @@
+/* Importation de la police de caractères 'Roboto' de Google Fonts avec un poids de 100 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-
 body {
-  background-color: orange;
-  font-family: sans-serif;
-  height: 100%;
+  background-color: orange; /* Couleur de fond de la page */
+  font-family: sans-serif; /* Police par défaut de la page */
+  height: 100%; /* Hauteur totale de la page */
 }
 
+/* Style pour un conteneur principal, probablement pour centrer le contenu */
 .wrapper {
-  max-width: 800px;
-  width: 100%;
-  margin: 30px auto;
-  color: white;
-  text-align: center;
+  max-width: 800px; /* Largeur maximale du conteneur */
+  width: 100%; /* Largeur ajustée à 100% de l'élément parent */
+  margin: 30px auto; /* Marge supérieure et inférieure, et centré horizontalement */
+  color: white; /* Couleur du texte dans le conteneur */
+  text-align: center; /* Alignement du texte au centre */
 }
 
+/* Styles communs pour les éléments h1, h2, et h3 */
 h1, h2, h3 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
-  font-size: 2.6em;
-  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif; /* Police Roboto pour ces en-têtes */
+  font-weight: 100; /* Épaisseur de la police (très fine) */
+  font-size: 2.6em; /* Taille de la police */
+  text-transform: uppercase; /* Texte en majuscules */
 }
 
+/* Style spécifique pour les éléments avec les id 'seconds' et 'tens' */
 #seconds, #tens {
-  font-size: 2em;
+  font-size: 2em; /* Taille de la police un peu plus grande */
 }
 
+/* Style pour les boutons */
 button {
-  background-color: black;
-  color: white;
-  border: solid 1px white;
-  border-radius: 5px;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 1.2em;
-  padding: 18px 10px;
-  width: 180px;
-  margin: 10px;
-  outline: none;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-  transition: all 0.5s ease-in-out;
+  background-color: black; /* Couleur de fond des boutons */
+  color: white; /* Couleur du texte sur les boutons */
+  border: solid 1px white; /* Bordure blanche autour des boutons */
+  border-radius: 5px; /* Bordures arrondies */
+  text-decoration: none; /* Pas de décoration de texte */
+  cursor: pointer; /* Curseur de pointeur pour indiquer qu'il est cliquable */
+  font-size: 1.2em; /* Taille de la police pour le texte du bouton */
+  padding: 18px 10px; /* Espacement intérieur du bouton */
+  width: 180px; /* Largeur fixe du bouton */
+  margin: 10px; /* Marge autour du bouton */
+  outline: none; /* Pas de contour lorsque le bouton est sélectionné */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Ombre portée pour un effet 3D */
+  transition: all 0.5s ease-in-out; /* Animation de transition pour les changements de style */
 }
 
-/* Media Query pour les écrans plus petits */
+/* Requête média pour ajuster les styles sur les écrans de moins de 600px de large */
 @media (max-width: 600px) {
   .wrapper {
-    width: 90%;
-    margin: 20px auto;
+    width: 90%; /* Largeur réduite pour le conteneur principal */
+    margin: 20px auto; /* Marge ajustée */
   }
 
   h1, h2, h3 {
-    font-size: 2em;
+    font-size: 2em; /* Taille de police réduite pour les en-têtes */
   }
 
   button {
-    width: 150px;
-    padding: 15px 8px;
+    width: 150px; /* Largeur réduite pour les boutons */
+    padding: 15px 8px; /* Ajustement de l'espacement intérieur des boutons */
   }
 }
