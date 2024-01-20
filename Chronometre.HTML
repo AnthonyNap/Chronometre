@@ -1,31 +1,46 @@
 <!DOCTYPE html>
-<html lang="fr">
-   
+<!-- La déclaration DOCTYPE indique au navigateur la version du HTML utilisée, ici HTML5. -->
+
 <head>
+   <!-- Section head qui contient les métadonnées et les liens vers les ressources externes. -->
+
    <title>Chronomètre en JavaScript</title>
+   <!-- Titre du document, affiché dans l'onglet du navigateur. -->
+
    <meta charset="UTF-8">
+   <!-- Définit l'encodage des caractères utilisé pour le document, ici UTF-8 qui couvre la plupart des caractères et symboles. -->
+
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <!-- Assure la meilleure compatibilité avec Internet Explorer. -->
+
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="icon" type="image/jpg" href="chrono.jpg">
    <link rel="stylesheet" href="./Style.css">
+   <!-- Lien vers un fichier CSS externe pour styler la page. -->
 </head>
 
 <body>
-   
+   <!-- Section body qui contient le contenu visible de la page web. -->
+
    <div class="wrapper">
+      <!-- Div englobante avec une classe 'wrapper' pour un potentiel style ou script. -->
 
       <h1>Chronomètre</h1>
+      <!-- Titre principal de la page. -->
+
       <h2>Chronomètre simple en JavaScript</h2>
+      <!-- Sous-titre pour plus de détails. -->
 
       <p><span id="seconds">00</span>:<span id="tens">00</span></p>
+      <!-- Paragraphe affichant le chronomètre. Les 'span' avec id permettent une mise à jour dynamique avec JavaScript. -->
 
       <button id="button-start" aria-label="Démarrer">Démarrer</button>
       <button id="button-stop" aria-label="Arrêter">Arrêter</button>
       <button id="button-reset" aria-label="Réinitialiser">Réinitialiser</button>
-      
+      <!-- Boutons pour contrôler le chronomètre, avec des identifiants uniques et des étiquettes aria pour l'accessibilité. -->
    </div> 
 
    <script src="./JavaScript.js"></script>
-
+   <!-- Lien vers le fichier JavaScript externe qui gère le fonctionnement du chronomètre. -->
 </body>
 </html>
